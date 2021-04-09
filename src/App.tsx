@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import background from './images/LandingBackground.png';
 import profilePic from './images/ProfilePic.jpeg';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="app" style={{ backgroundImage: `url(${background})`}}>
       <Navbar />
