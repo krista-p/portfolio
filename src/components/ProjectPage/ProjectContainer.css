@@ -61,23 +61,19 @@
   text-shadow: 4px 4px 4px #b6cda7;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 950px) {
   .project-container {
     height: fit-content;
+    width: auto;
   }
 
   .project-logo {
-    height: 50px;
+    height: 60px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .project-container {
     height: fit-content;
-    width: 15rem;
-  }
-
-  .project-logo {
-    height: 50px;
   }
 }
