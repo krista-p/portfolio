@@ -1,19 +1,14 @@
+import './AboutPage.css';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import AboutMe from '../images/AboutMe.jpeg';
-import Mountain from '../images/Mountain.jpeg';
 import { FaSnowboarding, FaMountain, FaHiking, FaRunning } from 'react-icons/fa';
 import { AiFillLinkedin,AiFillGithub } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 
 const AboutPage: React.FC = () => {
 
-const handleHoverEvent = (e: any) => {
-   console.log(e.target)
-}
-
 return (
-   <div className="detail-page">
+   <div className="detail-page" id="scroll">
       <Navbar />
 
       <div className="about">
@@ -34,10 +29,10 @@ return (
                      When I'm not in the office, you would most likely find me:
                   </p>
                   <ul>
-                     <li id="mountain" onMouseEnter={handleHoverEvent}>Climbing a mountain <FaMountain /></li>
-                     <li id="backpacking">Backpacking in the wilderness <FaHiking /></li>
-                     <li id="running">Running on a trail <FaRunning /></li>
-                     <li id="skiing">Frolicking in the snow <FaSnowboarding /></li>
+                     <li>Climbing a mountain <span className="icons"><FaMountain /></span></li>
+                     <li>Backpacking in the wilderness <span className="icons"><FaHiking /></span></li>
+                     <li>Running on a trail <span className="icons"><FaRunning /></span></li>
+                     <li>Frolicking in the snow <span className="icons"><FaSnowboarding /></span></li>
                   </ul>
                </div>
 

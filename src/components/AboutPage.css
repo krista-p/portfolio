@@ -1,0 +1,96 @@
+.about-container {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  margin: 24px;
+  overflow-y: auto;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #b6cda7;
+}
+
+
+ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  border: 4px solid #94CCDD;
+  width: auto;
+  margin: 12px;
+  border-radius: 18px;  
+  padding: 12px;
+  cursor: default;
+}
+
+li:hover {
+  background-color: #b6cda7;
+}
+
+.icons {
+  vertical-align: middle;
+  font-size: 24px;
+}
+
+.contact-me {
+  font-size: 60px;
+}
+
+.contact-me a {
+  margin: 12px;
+  color: white;
+}
+
+.contact-me a:hover {
+  color: #94CCDD;
+}
+
+.about-title {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px #94ccdddc;
+}
+
+.about-me {
+  max-width: 90%;
+  border: #b6cda7 8px solid;
+  border-radius: 24px;
+}
+
+.about-pictures {
+  margin: 32px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.profile-picture img {
+  height: 100%;
+  margin-left: -25%;
+}
+
+@media only screen and (max-width: 720px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: -32px;
+  }
+
+
+}

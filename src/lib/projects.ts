@@ -20,4 +20,5 @@ export const portfolio = {
   title: 'kpolikaitis',
   logo: portfolioLogo,
   tech: ['React', 'Typescript'],
+  link: 'https://github.com/krista-p/portfolio'
 }

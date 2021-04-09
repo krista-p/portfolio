@@ -1,3 +1,4 @@
+import './Footer.css';
 import { AiFillLinkedin,AiFillGithub } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 

@@ -1,3 +1,5 @@
+import './ProjectContainer.css';
+
 const ProjectContainer = ({project}:any) => {
   return (
     <div className="project-container">

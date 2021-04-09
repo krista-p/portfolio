@@ -1,10 +1,11 @@
+import './ProjectsPage.css';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import ProjectContainer from './ProjectPage/ProjectContainer';
 import { trekker, banana, portfolio } from '../lib/projects';
 
 const ProjectsPage = () => (
- <div className="detail-page">
+ <div className="detail-page" id="scroll">
     <Navbar />
     <div className="project-list">
        <ProjectContainer project={trekker} />

@@ -1,0 +1,14 @@
+.project-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+}
