@@ -1,6 +1,11 @@
 import './ProjectContainer.css';
+import { projectType } from '../../lib/projects';
 
-const ProjectContainer = ({project}:any) => {
+type projectProp = {
+  project: projectType,
+}
+
+const ProjectContainer: React.FC<projectProp> = ({project}) => {
   return (
     <div className="project-container">
 

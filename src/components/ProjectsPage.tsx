@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import ProjectContainer from './ProjectPage/ProjectContainer';
 import { trekker, banana, portfolio } from '../lib/projects';
 
-const ProjectsPage = () => (
+const ProjectsPage: React.FC = () => (
  <div className="detail-page" id="scroll">
     <Navbar />
     <div className="project-list">
