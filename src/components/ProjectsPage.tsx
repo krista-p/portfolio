@@ -8,9 +8,10 @@ const ProjectsPage: React.FC = () => (
  <div className="detail-page" id="scroll">
     <Navbar />
     <div className="project-list">
-       <ProjectContainer project={trekker} />
+       {/* <ProjectContainer project={trekker} />
        <ProjectContainer project={banana} />
-       <ProjectContainer project={portfolio} />
+       <ProjectContainer project={portfolio} /> */}
+       WORK IN PROGRESS !!!
     </div>
     <Footer />
  </div> 
