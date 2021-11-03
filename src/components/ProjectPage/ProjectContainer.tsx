@@ -5,7 +5,7 @@ type projectProp = {
   project: projectType,
 }
 
-const ProjectContainer: React.FC<projectProp> = ({/*project*/}) => {
+const ProjectContainer: React.FC<projectProp> = (/*{project}*/) => {
     return (
     <div className="project-container">
 
