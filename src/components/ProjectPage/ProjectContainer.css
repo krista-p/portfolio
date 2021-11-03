@@ -1,7 +1,7 @@
 .project-container {
   width: 20rem;
   height: 25rem;
-  background-color: #717191;
+  background-color: #555555;
   border-radius: 25px;
   margin: 24px;
   display: flex;
@@ -58,7 +58,7 @@
 }
 
 .project-link-title:hover {
-  text-shadow: 4px 4px 4px #717191;
+  text-shadow: 4px 4px 4px #555555;
 }
 
 @media only screen and (max-width: 950px) {

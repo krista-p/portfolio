@@ -18,9 +18,10 @@ return (
                <div className="about-title">hey, i'm krista!</div>
                <div>
                   <p>
-                     I'm a Fullstack Software Engineer living outside of the Chicago area and
-                     recently made the career switch from Mechanical Engineering 
-                     to Software Engineering in order to continue to build on my engineering skills.
+                     I'm a Software Engineer living outside of the Chicago area who
+                     used to be a Mechanical Engineer. I currently work for AKASA,
+                     where I am an Implementation Software Engineer working directly
+                     with Electronic Medical Records (EMR).
                   </p>
                </div>
 
