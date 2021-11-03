@@ -1,7 +1,7 @@
 .navbar {
   height: 72px;
   width: 100vw;
-  background-color: #363738 ;
+  background-color: rgb(26, 40, 23);
   align-items: center;
   box-shadow: 0px 2px 5px rgba(56, 56, 56, 0.418);
 }
