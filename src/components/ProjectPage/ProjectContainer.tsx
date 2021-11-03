@@ -12,6 +12,7 @@ const ProjectContainer: React.FC<projectProp> = ({/*project*/}) => {
       <div>WORK IN PROGESS!!!</div>
 
     </div>
+)};
 //   return (
 //     <div className="project-container">
 
