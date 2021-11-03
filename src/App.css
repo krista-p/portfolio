@@ -42,7 +42,8 @@ body {
 }
 
 .profile-picture img {
-  height: 300%;
+  height: 150%;
+  align-self: center;
 }
 
 
