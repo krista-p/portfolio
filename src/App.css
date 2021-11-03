@@ -20,7 +20,7 @@ body {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 90px;
   font-weight: 900;
-  text-shadow: 4px 4px 4px #94ccddab;
+  text-shadow: 4px 4px 4px rgba(148, 204, 221, 0.571)
 }
 
 .title {
@@ -34,7 +34,7 @@ body {
   height: 200px;
   border-radius: 50%;
   background-color: white;
-  box-shadow: 3px 5px 5px rgba(50, 77, 43, 0.233);
+  box-shadow: 3px 5px 5px rgba(35, 53, 30, 0.233);
   position: fixed;
   bottom: 60px;
   right: 45px;
@@ -50,7 +50,7 @@ body {
 .detail-page {
   height: 100vh;
   width: 100%;
-  background-color: rgb(26, 40, 23);
+  background-color: rgb(17, 28, 14);
   overflow: auto;
 }
 

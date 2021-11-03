@@ -19,7 +19,7 @@
   font-size: 18px;
   font-weight: 600;
   width: 75%;
-  color: #b6cda7;
+  color: #2121a9;
 }
 
 
@@ -31,7 +31,7 @@ ul {
 }
 
 li {
-  border: 4px solid #94CCDD;
+  border: 4px solid #308c6c;
   width: auto;
   margin: 12px;
   border-radius: 18px;  
@@ -40,7 +40,7 @@ li {
 }
 
 li:hover {
-  background-color: #b6cda7;
+  background-color: #2121a9;
 }
 
 .icons {
@@ -58,19 +58,19 @@ li:hover {
 }
 
 .contact-me a:hover {
-  color: #94CCDD;
+  color: #308c6c;
 }
 
 .about-title {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 50px;
   color: white;
-  text-shadow: 2px 2px 2px #94ccdddc;
+  text-shadow: 2px 2px 2px rgba(148, 204, 221, 0.589)
 }
 
 .about-me {
   max-width: 90%;
-  border: #b6cda7 8px solid;
+  border: #2121a9 8px solid;
   border-radius: 24px;
 }
 
