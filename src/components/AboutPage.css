@@ -19,7 +19,7 @@
   font-size: 18px;
   font-weight: 600;
   width: 75%;
-  color: #2121a9;
+  color: #717191;
 }
 
 
@@ -40,7 +40,7 @@ li {
 }
 
 li:hover {
-  background-color: #2121a9;
+  background-color: #717191;
 }
 
 .icons {
@@ -65,12 +65,12 @@ li:hover {
   font-family: 'Alegreya Sans SC', sans-serif;
   font-size: 50px;
   color: white;
-  text-shadow: 2px 2px 2px rgba(148, 204, 221, 0.589)
+  text-shadow: #71719162
 }
 
 .about-me {
   max-width: 90%;
-  border: #2121a9 8px solid;
+  border: #717191 8px solid;
   border-radius: 24px;
 }
 
