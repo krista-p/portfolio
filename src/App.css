@@ -43,7 +43,7 @@ body {
 
 .profile-picture img {
   height: 150%;
-  align-self: center;
+  margin-left: 25px;
 }
 
 
