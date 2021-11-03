@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import background from './images/LandingBackground.png';
+// import background from './images/LandingBackground.png';
 import topographic from './images/Topographic.jpg';
 import profilePic from './images/ProfilePic.jpeg';
 
